@@ -28,6 +28,7 @@
     <ClCompile Include="src\engine\core\view\api_view.cpp" />
     <ClCompile Include="src\engine\core\view\win32\impl_view.cpp" />
     <ClCompile Include="src\engine\lib\sys.cpp" />
+    <ClCompile Include="src\engine\main.cpp" />
     <ClCompile Include="src\engine\render\api_render.cpp" />
     <ClCompile Include="src\engine\render\camera\api_camera.cpp" />
     <ClCompile Include="src\engine\render\camera\impl_camera.cpp" />
@@ -97,6 +98,7 @@
     <ClInclude Include="src\engine\lib\ptr.h" />
     <ClInclude Include="src\engine\lib\ref.h" />
     <ClInclude Include="src\engine\lib\sys.h" />
+    <ClInclude Include="src\engine\main.h" />
     <ClInclude Include="src\engine\render\api_render.h" />
     <ClInclude Include="src\engine\render\camera\api_camera.h" />
     <ClInclude Include="src\engine\render\camera\impl_camera.h" />
