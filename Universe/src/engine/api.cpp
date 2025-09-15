@@ -1,11 +1,11 @@
 // Copyright: (C) 2022 Vyacheslav Smirnov. All rights reserved.
 
-#ifndef ENGINE_MAIN
-#define ENGINE_MAIN
+#include "api.h"
 
 namespace engine
 {
-    int exec();
+    int exec()
+    {
+        return 0;
+    }
 }
-
-#endif
