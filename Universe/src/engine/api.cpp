@@ -2,10 +2,12 @@
 
 #include "api.h"
 
+#include "core.h"
+
 namespace engine
 {
     int exec()
     {
-        return 0;
+        return engine::core::run();
     }
 }

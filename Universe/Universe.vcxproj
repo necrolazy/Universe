@@ -19,7 +19,6 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\engine.cpp" />
     <ClCompile Include="src\engine\core.cpp" />
     <ClCompile Include="src\engine\core\control\api_control.cpp" />
     <ClCompile Include="src\engine\core\event\api_event.cpp" />
@@ -28,7 +27,7 @@
     <ClCompile Include="src\engine\core\view\api_view.cpp" />
     <ClCompile Include="src\engine\core\view\win32\impl_view.cpp" />
     <ClCompile Include="src\engine\lib\sys.cpp" />
-    <ClCompile Include="src\engine\main.cpp" />
+    <ClCompile Include="src\engine\api.cpp" />
     <ClCompile Include="src\engine\render\api_render.cpp" />
     <ClCompile Include="src\engine\render\camera\api_camera.cpp" />
     <ClCompile Include="src\engine\render\camera\impl_camera.cpp" />
@@ -58,11 +57,9 @@
     <ClCompile Include="src\engine\var\vector3.cpp" />
     <ClCompile Include="src\engine\var\vector4.cpp" />
     <ClCompile Include="src\engine\var\vertex.cpp" />
-    <ClCompile Include="src\game.cpp" />
     <ClCompile Include="src\main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\engine.h" />
     <ClInclude Include="src\engine\core.h" />
     <ClInclude Include="src\engine\core\control\api_control.h" />
     <ClInclude Include="src\engine\core\control\ipf\iph_api_control.h" />
@@ -98,7 +95,7 @@
     <ClInclude Include="src\engine\lib\ptr.h" />
     <ClInclude Include="src\engine\lib\ref.h" />
     <ClInclude Include="src\engine\lib\sys.h" />
-    <ClInclude Include="src\engine\main.h" />
+    <ClInclude Include="src\engine\api.h" />
     <ClInclude Include="src\engine\render\api_render.h" />
     <ClInclude Include="src\engine\render\camera\api_camera.h" />
     <ClInclude Include="src\engine\render\camera\impl_camera.h" />
@@ -198,7 +195,6 @@
     <ClInclude Include="src\engine\var\vector3.h" />
     <ClInclude Include="src\engine\var\vector4.h" />
     <ClInclude Include="src\engine\var\vertex.h" />
-    <ClInclude Include="src\game.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
