@@ -20,6 +20,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\engine\core.cpp" />
+    <ClCompile Include="src\engine\core\config.cpp" />
     <ClCompile Include="src\engine\core\control\api_control.cpp" />
     <ClCompile Include="src\engine\core\event\api_event.cpp" />
     <ClCompile Include="src\engine\core\event\win32\impl_event.cpp" />
@@ -60,6 +61,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\engine\core.h" />
+    <ClInclude Include="src\engine\core\config.h" />
     <ClInclude Include="src\engine\core\control\api_control.h" />
     <ClInclude Include="src\engine\core\control\ipf\iph_api_control.h" />
     <ClInclude Include="src\engine\core\control\ipf\ips_api_control.h" />

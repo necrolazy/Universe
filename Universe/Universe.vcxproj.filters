@@ -250,6 +250,9 @@
     <ClCompile Include="src\engine\core.cpp">
       <Filter>src\engine</Filter>
     </ClCompile>
+    <ClCompile Include="src\engine\core\config.cpp">
+      <Filter>src\engine\core</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\engine\var\map.h">
@@ -653,6 +656,9 @@
     </ClInclude>
     <ClInclude Include="src\engine\def\impl.h">
       <Filter>src\engine\def</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\core\config.h">
+      <Filter>src\engine\core</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
