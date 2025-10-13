@@ -4,5 +4,5 @@
 
 int main(int argc, char* argv[])
 {
-    return engine::core::run();
+    return engine::core::run(argc > 1 ? argv[1] : "");
 }

@@ -2,5 +2,5 @@
 
 namespace engine::core
 {
-    int run();
+    int run(const char* config_path = "");
 }
