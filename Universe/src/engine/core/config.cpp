@@ -2,7 +2,31 @@
 
 #include "config.h"
 
+#include "engine/def/impl.h"
+
 namespace engine::core::config
 {
-    //
+    class impl
+    {
+        impl_def
+    };
+
+
+    obj::obj()
+    {
+        //
+    }
+    obj::~obj()
+    {
+        //
+    }
+
+    obj::obj(obj&& src) noexcept
+    {
+        //
+    }
+    obj::obj(const obj& src) noexcept
+    {
+        //
+    }
 }
